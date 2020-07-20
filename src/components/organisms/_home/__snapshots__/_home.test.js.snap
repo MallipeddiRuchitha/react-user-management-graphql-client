@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component Matches the snapshot 1`] = `
+<div
+  data-testid="home"
+>
+  <div
+    className="makeStyles-header-2"
+  >
+    <h4
+      className="MuiTypography-root MuiTypography-h4"
+    >
+      User Management
+    </h4>
+  </div>
+  <div
+    className="makeStyles-button-4"
+  >
+     
+    <div
+      data-testid="button"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          ADD USER
+        </span>
+      </button>
+    </div>
+  </div>
+  <p>
+    Loading...
+  </p>
+</div>
+`;

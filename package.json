@@ -1,0 +1,53 @@
+{
+  "name": "react-user-management-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "mock-apollo-client": "^0.4.0",
+    "node-sass": "^4.14.1",
+    "react-test-renderer": "^16.13.1",
+    "redux-devtools": "^3.5.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@apollo/react-testing": "^3.1.4",
+    "@babel/plugin-transform-react-constant-elements": "^7.10.4",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.1.0",
+    "jest": "^26.1.0",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-apollo-test-utils": "0.0.1",
+    "react-dom": "^16.13.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "<rootDir>/.jest.transform.js"
+    }
+  }
+}
